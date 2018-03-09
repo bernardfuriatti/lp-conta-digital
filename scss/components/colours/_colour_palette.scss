@@ -1,0 +1,8 @@
+
+.cinza-medium{
+  background-color: $cinza-medium;
+}
+
+.gradient{
+  @include linear-gradient(#ff8700, 90, #ff8700, 0%, #ff500f, 100%);
+}

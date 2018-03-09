@@ -1,0 +1,25 @@
+// buttons
+
+
+.btn{
+  display: inline-block;
+  padding: 24px 40px;
+  cursor: pointer;
+
+  text-decoration: none;
+  text-transform: uppercase;  
+  font-family: $font-base;
+  font-weight: 700;
+  border: none;
+  border-radius: 100px;
+  
+}
+
+.btn-primary{
+  @include linear-gradient(#ff8700, 90, #ff8700, 0%, #ff500f, 100%);
+  color:white;
+  box-shadow: 4px 8px 20px 0 rgba(255, 80, 15, 0.3);
+ 
+}
+
+

@@ -1,0 +1,22 @@
+/* BASE */
+@import "base/_base";
+
+/* MODULES */
+@import "modules/_modules";
+
+/* COMPONENTS */
+@import "components/_components";
+
+body{
+  font-family: $font-base;
+  color: $textos;
+}
+
+.section{
+
+    &--full{
+        height: 80vh;
+        width: 100vw;
+    }    
+
+}
